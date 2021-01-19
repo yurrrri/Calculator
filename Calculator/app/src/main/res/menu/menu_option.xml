@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+\        <item
+            android:id="@+id/general"
+            android:checked="true"
+            android:title="일반용"
+            android:visible="true" />
+        <item
+            android:id="@+id/scientific_layout"
+            android:title="공학용" />
+    </group>
+</menu>
